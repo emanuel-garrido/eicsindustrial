@@ -1,2 +1,2 @@
 # eicsindustrial
-Pagina para pyme de mantenimiento industrias
+Pagina para pyme de mantenimiento industrial.
