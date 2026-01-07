@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- TÍTULO: Lo más importante. Qué hacen + Dónde -->
+    <title>EI&CS | Electricidad Industrial y Automatización en San Nicolás</title>
+    
+    <!-- DESCRIPCIÓN: Lo que lee la gente en Google antes de entrar -->
+    <meta name="description" content="Empresa de mantenimiento industrial, montaje eléctrico, instrumentación y control de sistemas. Soluciones llave en mano en San Nicolás, Villa Constitución y zona.">
+    
+    <!-- PALABRAS CLAVE: Ayudan a los motores de búsqueda -->
+    <meta name="keywords" content="electricidad industrial, automatización, tableros eléctricos, mantenimiento industrial, montaje electromecánico, instrumentación, San Nicolás, EI&CS">
+    
+    <!-- PARA REDES SOCIALES (Cuando compartas el link por WhatsApp/LinkedIn) -->
+    <meta property="og:title" content="EI&CS - Soluciones Industriales">
+    <meta property="og:description" content="Expertos en Electricidad, Instrumentación y Control. Servicios industriales en San Nicolás.">
+    <meta property="og:image" content="https://eicsindustrial.com.ar/Logo.webp"> <!-- Asegurate que la URL sea la real -->
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes y Videos/Logo.webp" type="image/webp">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagenes y Videos/Logo sin fondo.webp" alt="Logo EI&CS">
+                </a>
+            </div>
+            
+            <ul id="nav-links">
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#obras-servicios">Obras y servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <button id="hamburger-btn" class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <!-- Portada preparada para vídeo: coloca tu archivo de vídeo en la ruta indicada abajo
+                 Recomendado: "Imagenes y Videos/hero-video.mp4" o reemplaza el atributo src del <source> -->
+            <div class="hero-media">
+                <video id="hero-video" class="hero-video" autoplay muted loop playsinline poster="#">
+                    <!-- Cambia el src al nombre de tu vídeo cuando lo copies al proyecto -->
+                    <source src="Imagenes y Videos/Portada.mp4" type="video/mp4">
+                    <!-- Texto alternativo si el navegador no soporta video -->
+                    Tu navegador no soporta el elemento de vídeo. Verifique que el archivo "hero-video.mp4" exista en la carpeta "Imagenes y Videos/".
+                </video>
+                <!-- Overlay oscuro para mejorar contraste -->
+                <div class="hero-overlay" aria-hidden="true"></div>
+            </div>
+
+            <div class="hero-content container">
+                <div class="hero-logo">
+                    <!-- Logo sobre el vídeo: si quieres usar otra imagen cambia el src -->
+                    <img src="Imagenes y Videos/Logo sin fondo.webp" alt="Logo EI&CS">
+                </div>
+                <h1 class="hero-title">Electricidad, Instrumentación & Control de Sistemas</h1>
+                <!-- CTA opcional: añadila o quitala según prefieras -->
+                <a href="#quienes-somos" class="cta-button">Conocé más</a>
+            </div>
+        </section>
+
+        <section id="quienes-somos" class="container">
+            <h2>Quiénes Somos</h2>
+            <div class="quienes-somos-content">
+                <div class="texto">
+                    <p class="tagline">EI&CS TECNOLOGIA INDUSTRIAL</p>
+                    <h1>Sus necesidades de proceso son nuestro desafío</h1>
+                    <p><strong>Somos una empresa con alta experiencia en el area electrica e instrumentacion industrial. Queremos aplicar la misma experiencia en las obras a realizar. Aseguramos Experiencia, Calidad y Seguridad en las especialidades asignadas.</strong></p>
+                    <p>Somos dinámicos y atentos a la evolución tecnológica. Nos definimos como dinámicos y atentos a la evolución tecnológica. La empresa se caracteriza por su profesionalidad, afán de superación y capacidad para trabajar en equipo.</p>
+                    <p>Contamos con áreas específicas y profesionales a su cargo. Todo ello con un fin único, ofrecer el mejor servicio y la máxima calidad a sus clientes.</p>
+                </div>
+                <div class="quienes-somos-imagen">
+                    <img src="Imagenes y Videos/Grafico.webp" alt="Entrega Llave en Mano - Áreas de Negocio">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección nueva: Obras y servicios (dos columnas con íconos circulares) -->
+        <section id="obras-servicios" class="container">
+            <h2>Obras y servicios</h2>
+            <p class="obras-intro">Nuestro gran equipo de personas e infraestructura nos permite brindar soluciones de calidad en las siguientes industrias y servicios:</p>
+            
+            <div class="servicios-list-grid">
+                        <!-- Reemplaza los src por tus imágenes -->
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/gasoducto.webp" alt="Gasoductos">
+                            <p>Gasoductos</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/Mineria.webp" alt="Minería">
+                            <p>Minería</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/Obra electrica.webp" alt="Obras Eléctricas">
+                            <p>Obras Eléctricas</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/control y sistema.webp" alt="Control y Sistemas">
+                            <p>Control y Sistemas</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/metalurgica.webp" alt="Metalúrgica">
+                            <p>Metalúrgica</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/instrumentacion.webp" alt="Instrumentación">
+                            <p>Instrumentación</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/Capacitacion.webp" alt="Capacitación">
+                            <p>Capacitación</p>
+                        </div>
+                        <div class="servicio-item">
+                            <img src="Imagenes y Videos/ingenieria.webp" alt="Ingeniería">
+                            <p>Ingeniería</p>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- Sección: Galería de Trabajos Realizados -->
+        <section id="trabajos-realizados" class="container">
+            <h2>Trabajos Realizados</h2>
+            <p class="galeria-intro">Conocé algunos de los proyectos que hemos completado con éxito en diferentes sectores industriales.</p>
+            
+            <div class="galeria-grid">
+                <div class="galeria-item" data-index="0">
+                    <img src="Imagenes y Videos/Trabajos realizados 1.jpeg" alt="Válvula de control en campo petrolero" loading="lazy">
+                </div>
+                <div class="galeria-item" data-index="1">
+                    <img src="Imagenes y Videos/Trabajos realizados 2.jpeg" alt="Técnico calibrando instrumentación" loading="lazy">
+                </div>
+                <div class="galeria-item" data-index="2">
+                    <img src="Imagenes y Videos/Trabajos realizados 3.jpeg" alt="Instalación en planta industrial" loading="lazy">
+                </div>
+                <div class="galeria-item" data-index="3">
+                    <img src="Imagenes y Videos/Trabajos realizados 4.jpeg" alt="Transmisor de presión ABB" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="4">
+                    <img src="Imagenes y Videos/Trabajos realizados 5.jpeg" alt="Personal técnico en campo" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="5">
+                    <img src="Imagenes y Videos/Trabajos realizados 6.jpeg" alt="Trabajo en equipo de alta tensión" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="6">
+                    <img src="Imagenes y Videos/Trabajos realizados 7.jpeg" alt="Variador de frecuencia ABB" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="7">
+                    <img src="Imagenes y Videos/Trabajos realizados 8.jpeg" alt="Calibración de equipos en taller" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="8">
+                    <img src="Imagenes y Videos/Trabajos realizados 9.jpeg" alt="Mantenimiento en transformador" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-hidden" data-index="9">
+                    <img src="Imagenes y Videos/Tubos gas.jpeg" alt="Pruebas de válvulas de control" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal para Galería -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <button class="lightbox-nav lightbox-prev" aria-label="Imagen anterior">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <img class="lightbox-content" id="lightbox-img" alt="">
+            <div class="lightbox-caption"></div>
+            <button class="lightbox-nav lightbox-next" aria-label="Imagen siguiente">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+            <div class="lightbox-counter"></div>
+        </div>
+
+        <!-- Sección: Compromisos de AG Tecnología Industrial -->
+        <section id="compromisos" class="container">
+            <h2 class="compromisos-title">EI&CS Tecnología Industrial, como su personal, se compromete a:</h2>
+
+            <div class="compromisos-grid">
+                <ul class="compromisos-list">
+                    <li>Proporcionar los recursos para mantener vivos los valores de esta Política Integrada y de mantener un lugar Seguro y Saludable.</li>
+                    <li>Cumplir con los Requisitos Legales en Higiene y Seguridad en el trabajo, del Medioambiente, la Calidad, como adoptar si es adecuado normas internas o externas que nacen de las operaciones o de las organizaciones.</li>
+                    <li>Nos formulamos objetivos anualmente metas y programas, los cuales, son evaluados y cuantificados para la mejora continua, la prevención de accidentes de las personas, propiedad y de la contaminación ambiental.</li>
+                </ul>
+
+                <ul class="compromisos-list">
+                    <li>Aseguramos la comunicación de satisfacción de nuestros clientes y el de mantener la confidencialidad por parte de todo los empleados.</li>
+                    <li>Evaluar los aspectos integrados de riesgos y minimizar los impactos a fin de elegir la tecnología más adecuada en las fases de diseño, desarrollo de servicios, productos, instalaciones y procesos de trabajo aplicando un sistema de análisis de riesgo y puestos críticos de control.</li>
+                    <li>Integrar y consultar al personal para aumentar su compromiso con la comprensión, implementación y mantenimiento de esta Política en todos los niveles de la organización.</li>
+                </ul>
+
+                <ul class="compromisos-list">
+                    <li>Asegurar que los empleados reciban capacitación adecuada y que sean competentes para llevar a cabo sus obligaciones y sus responsabilidades.</li>
+                    <li>Comprometer a proveedores externos y clientes colaboren con esta Política.</li>
+                    <li>Esta política es difundida a todos los integrantes de la Compañía y cualquier persona puede obtener una copia escribiendo al coordinador del Sistema Integrado, quien agradecerá cualquier observación.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="container">
+            <h2>Contáctenos</h2>
+            
+            <div class="footer-container">
+                <div class="footer-col" id="footer-about">
+                    <img src="Imagenes y Videos/Logo.webp" alt="Logo EI&CS" class="footer-logo">
+                    <p><strong>¿Consultas, asesoramiento?</strong><br>Estamos para ayudarte.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:info@eics.com.ar">eandinstrumentation@gmail.com</a></p>
+                        <p><strong>Cell 1:</strong> +5493364008902 </p>
+                        <p><strong>Cell 2:</strong> +5493364602010 </p>
+                    </div>
+                </div>
+                
+                <div class="footer-col" id="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                        <li><a href="#obras-servicios">Obras y servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" id="footer-social">
+                    <h4>Síguenos</h4>
+                    <p>Enterate de nuestras últimas novedades.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ei-y-cs-467534267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/share/1N1V14hYFi/" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EI&CS. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        // --- Lógica del Header (Scroll) ---
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // --- Lógica del Menú de Hamburguesa ---
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburgerBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburgerBtn.classList.toggle('active');
+        });
+
+        // --- Cerrar el menú al hacer clic en un enlace ---
+        const allLinks = navLinks.querySelectorAll('a');
+        allLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    hamburgerBtn.classList.remove('active');
+                }
+            });
+        });
+
+        // --- Animaciones al hacer scroll ---
+        function reveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            const windowHeight = window.innerHeight;
+            const elementVisible = 150;
+
+            reveals.forEach((element) => {
+                const elementTop = element.getBoundingClientRect().top;
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', reveal);
+        reveal(); // Activar al cargar la página
+
+        // --- Animación suave de números ---
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // --- Inicializar todas las animaciones cuando el contenido esté cargado ---
+        document.addEventListener('DOMContentLoaded', function() {
+            // Agregar clase reveal a elementos que queremos animar
+            document.querySelectorAll('section > *:not(h2)').forEach(element => {
+                element.classList.add('reveal');
+            });
+
+            // Activar animaciones iniciales
+            reveal();
+            
+            // Smooth scroll para enlaces internos
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+
+        // --- Optimizar rendimiento del scroll ---
+        let scrollTimeout;
+        window.addEventListener('scroll', function() {
+            if (scrollTimeout) {
+                window.cancelAnimationFrame(scrollTimeout);
+            }
+            scrollTimeout = window.requestAnimationFrame(function() {
+                reveal();
+            });
+        }, { passive: true });
+
+        // --- Lightbox para Galería ---
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.querySelector('.lightbox-caption');
+        const lightboxCounter = document.querySelector('.lightbox-counter');
+        const closeBtn = document.querySelector('.lightbox-close');
+        const prevBtn = document.querySelector('.lightbox-prev');
+        const nextBtn = document.querySelector('.lightbox-next');
+        const galeriaItems = document.querySelectorAll('.galeria-item');
+        let currentIndex = 0;
+
+        // Abrir lightbox al hacer clic en una imagen
+        galeriaItems.forEach((item, index) => {
+            item.addEventListener('click', function() {
+                currentIndex = parseInt(this.getAttribute('data-index'));
+                showLightbox(currentIndex);
+            });
+        });
+
+        function showLightbox(index) {
+            const item = document.querySelector(`[data-index="${index}"]`);
+            const img = item.querySelector('img');
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            lightboxCaption.textContent = img.alt;
+            lightboxCounter.textContent = `${index + 1} / ${galeriaItems.length}`;
+            lightbox.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        function changeImage(direction) {
+            currentIndex += direction;
+            if (currentIndex >= galeriaItems.length) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = galeriaItems.length - 1;
+            }
+            showLightbox(currentIndex);
+        }
+
+        // Event listeners
+        closeBtn.addEventListener('click', closeLightbox);
+        prevBtn.addEventListener('click', () => changeImage(-1));
+        nextBtn.addEventListener('click', () => changeImage(1));
+
+        // Cerrar al hacer clic fuera de la imagen
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Navegación con teclado
+        document.addEventListener('keydown', function(e) {
+            if (lightbox.style.display === 'flex') {
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowLeft') changeImage(-1);
+                if (e.key === 'ArrowRight') changeImage(1);
+            }
+        });
+
+        // --- Ajustar el tamaño del título del hero para que quepa en una sola línea en desktop ---
+        function fitHeroTitle() {
+            const el = document.querySelector('.hero-title');
+            if (!el) return;
+
+            // En móviles dejamos que haga wrap y usamos las reglas CSS por defecto
+            if (window.innerWidth < 900) {
+                el.style.whiteSpace = '';
+                el.style.fontSize = '';
+                return;
+            }
+
+            el.style.whiteSpace = 'nowrap';
+
+            // Obtener tamaño de fuente computado y establecer un punto de partida
+            const computed = window.getComputedStyle(el);
+            let fontSize = parseFloat(computed.fontSize) || 18; // px
+
+            // Ajuste inicial basado en la anchura de la ventana para evitar iteraciones largas
+            const vwBased = Math.max(12, Math.round(window.innerWidth * 0.018));
+            fontSize = Math.min(fontSize, vwBased);
+            el.style.fontSize = fontSize + 'px';
+
+            // Reducir gradualmente hasta que el ancho del texto quepa en el contenedor
+            // Límite mínimo de legibilidad 10px
+            while (el.scrollWidth > el.clientWidth && fontSize > 10) {
+                fontSize -= 1;
+                el.style.fontSize = fontSize + 'px';
+            }
+        }
+
+        // Ejecutar al cargar, tras cargar fuentes y al redimensionar (debounce)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Asegurarse de correr después de que las fuentes estén listas
+            if (document.fonts && document.fonts.ready) {
+                document.fonts.ready.then(fitHeroTitle).catch(() => fitHeroTitle());
+            } else {
+                fitHeroTitle();
+            }
+        });
+
+        let fitTimeout;
+        window.addEventListener('resize', function() {
+            if (fitTimeout) clearTimeout(fitTimeout);
+            fitTimeout = setTimeout(fitHeroTitle, 120);
+        });
+    </script>
+
+    <a href="https://api.whatsapp.com/send?phone=5493364008902&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20y%20un%20presupuesto" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" width="32px" height="32px">
+            <path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.044-.53-.044-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.38.287-.775.287-1.44.214-1.543-.072-.114-.24-.228-.51-.34zM16 0C7.163 0 0 7.163 0 16s7.163 16 16 16c9.027 0 16-7.163 16-16S24.837 0 16 0zm0 29C8.837 29 3 23.163 3 16S8.837 3 16 3s13 5.837 13 13-5.837 13-13 13z"/>
+        </svg>
+    </a>
+    </body>
+</html>
